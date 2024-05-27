@@ -1,7 +1,6 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-
 import { AiOutlineCamera, AiOutlineSearch } from "react-icons/ai";
 const SearchHeaderOptions = () => {
   const router = useRouter();

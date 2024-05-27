@@ -26,6 +26,8 @@ const PaginationButtons = () => {
             </div>
           </Link>
         )}
+      </Suspense>
+      <Suspense fallback={<div>Loading Search Parameters...</div>}>
         {startIndex <= 90 && (
           <Link
             href={`${pathname}?searchTerm=${searchTerm}&start=${

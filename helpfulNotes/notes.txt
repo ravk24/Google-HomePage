@@ -1,0 +1,14 @@
+npx create-next-app@latest
+enter name etc...
+
+for location we use an api - https://extreme-ip-lookup.com/json/?key
+
+for fetching google search results we use api-
+https://programmablesearchengine.google.com/controlpanel/create/congrats?cx=a23178e621cf94ac8
+
+1) generate an api
+2) use control panel to create an search engine and copy the context
+3) use api to fetch results(follow page.js of web)
+
+npm install html-react-parser
+//check dependency for other libraries used

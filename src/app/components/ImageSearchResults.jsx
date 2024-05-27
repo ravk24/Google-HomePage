@@ -10,10 +10,18 @@ const ImageSearchResults = ({ results }) => {
           <div className="mb-8" key={result.link}>
             <div className="group">
               <Link href={result.image.contextLink}>
-                <img
+                {/* <img
                   src={result.link}
                   alt={result.title}
                   className="h-60 group-hover:shadow-xl w-full object-contain transition-shadow duration-300"
+                /> */}
+                <Image
+                  src={result.link}
+                  alt={result.title}
+                  height={100}
+                  width={260}
+                  objectFit="contain"
+                  className="group-hover:shadow-xl transition-shadow duration-300"
                 />
               </Link>
               <Link href={result.image.contextLink}>

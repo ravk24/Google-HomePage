@@ -8,6 +8,13 @@ const nextConfig = {
       },
     ],
   },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
 };
-
+// module.exports = {
+//   experimental: {
+//     missingSuspenseWithCSRBailout: false,
+//   },
+// };
 export default nextConfig;

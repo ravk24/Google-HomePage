@@ -7,13 +7,7 @@ import { Suspense } from "react";
 export default function Home() {
   return (
     <div>
-      <Suspense
-        fallback={
-          <div>
-            <p>Loading....</p>
-          </div>
-        }
-      >
+      <Suspense>
         <HomeHeader />
         <div className="flex flex-col items-center mt-24">
           <Image

@@ -13,7 +13,7 @@ const PaginationButtons = () => {
 
   return (
     <div className="text-blue-700 flex px-10 pb-4 justify-between sm:justify-start sm:space-x-44 sm:px-0">
-      <Suspense fallback={<div>Loading Search Parameters...</div>}>
+      <Suspense>
         {startIndex >= 10 && (
           <Link
             href={`${pathname}?searchTerm=${searchTerm}&start=${

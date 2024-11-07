@@ -7,7 +7,7 @@ const CountryLookup = () => {
   useEffect(() => {
     const getCountry = async () => {
       const response = await fetch(
-        `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_IP_API_KEY}`
+        `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_IP_API}`
       );
       if (!response) return;
       const data = await response.json();
